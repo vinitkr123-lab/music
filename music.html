@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>spotify - your music, your way</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css">
+</head>
+
+<body>
+    <nav>
+        <ul>
+            <li class="brand"><img src="spotify.png" alt="Spotify Logo" width="40" height="40"> spotify</li>
+            <li><a href="#home" class="nav-link active" id="homeLink">Home</a></li>
+            <li><a href="#about" class="nav-link" id="aboutLink">About</a></li>
+        </ul>
+    </nav>
+
+    <div class="container" id="home">
+        <div class="songlist">
+            <h1>Best of NCS - no copyright sounds</h1>
+            <div class="songItemcontainer">
+                <div class="songItem"><img src="love.jpeg" alt="cover"><span class="songName">Song</span><span
+                        class="songlistplay"><span class="timestemp">05:34 <i
+                                class="fa-solid fa-play songItemPlay"></i></span></span></div>
+                <div class="songItem"><img src="love.jpeg" alt="cover"><span class="songName">Song</span><span
+                        class="songlistplay"><span class="timestemp">05:34 <i
+                                class="fa-solid fa-play songItemPlay"></i></span></span></div>
+                <div class="songItem"><img src="love.jpeg" alt="cover"><span class="songName">Song</span><span
+                        class="songlistplay"><span class="timestemp">05:34 <i
+                                class="fa-solid fa-play songItemPlay"></i></span></span></div>
+                <div class="songItem"><img src="love.jpeg" alt="cover"><span class="songName">Song</span><span
+                        class="songlistplay"><span class="timestemp">05:34 <i
+                                class="fa-solid fa-play songItemPlay"></i></span></span></div>
+                <div class="songItem"><img src="love.jpeg" alt="cover"><span class="songName">Song</span><span
+                        class="songlistplay"><span class="timestemp">05:34 <i
+                                class="fa-solid fa-play songItemPlay"></i></span></span></div>
+                <div class="songItem"><img src="love.jpeg" alt="cover"><span class="songName">Song</span><span
+                        class="songlistplay"><span class="timestemp">05:34 <i
+                                class="fa-solid fa-play songItemPlay"></i></span></span></div>
+                <div class="songItem"><img src="love.jpeg" alt="cover"><span class="songName">Song</span><span
+                        class="songlistplay"><span class="timestemp">05:34 <i
+                                class="fa-solid fa-play songItemPlay"></i></span></span></div>
+                <div class="songItem"><img src="love.jpeg" alt="cover"><span class="songName">Song</span><span
+                        class="songlistplay"><span class="timestemp">05:34 <i
+                                class="fa-solid fa-play songItemPlay"></i></span></span></div>
+                <div class="songItem"><img src="love.jpeg" alt="cover"><span class="songName">Song</span><span
+                        class="songlistplay"><span class="timestemp">05:34 <i
+                                class="fa-solid fa-play songItemPlay"></i></span></span></div>
+            </div>
+        </div>
+
+        <div class="songbanner"></div>
+    </div>
+
+    <section class="about-section" id="about">
+        <h2>About this player</h2>
+        <p>This music player plays your local songs in a clean and organized playlist. You can select a song, seek
+            through it using the progress bar, and switch between tracks with the Next and Previous buttons.</p>
+        <div class="about-stats">
+            <span><strong>9</strong> Songs</span>
+            <span><strong>Local</strong> Playlist</span>
+            <span><strong>Simple</strong> Controls</span>
+        </div>
+    </section>
+
+    <div class="bottom">
+        <input type="range" name="range" id="myprogressbar" min="0" value="0" max="100">
+        <div class="icon">
+            <i class="fa-solid fa-backward" id="previous"></i>
+            <i class="fa-solid fa-play" id="masterPlay"></i>
+            <i class="fa-solid fa-forward" id="next"></i>
+        </div>
+        <div class="songinfo">
+            <img src="tenor (1).gif" width="50" alt="playing" id="gif">
+            <span id="currentSongName">Tujhko</span>
+        </div>
+    </div>
+
+    <script src="back.js"></script>
+</body>
+
+</html>
